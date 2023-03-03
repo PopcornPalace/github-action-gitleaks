@@ -41,9 +41,9 @@ INPUT_FAIL=$(default 'true' 'false' "${INPUT_FAIL}" 'true')
 INPUT_VERBOSE=$(default 'true' 'false' "${INPUT_VERBOSE}" 'true')
 INPUT_LOG_LEVEL=$(default 'info' "${INPUT_LOG_LEVEL}" "${INPUT_LOG_LEVEL}" 'true')
 
-echo "----------------------------------"
+echo "-----------------------------------"
 echo "INPUT PARAMETERS"
-echo "----------------------------------"
+echo "-----------------------------------"
 echo "INPUT_SOURCE: ${INPUT_SOURCE}"
 echo "INPUT_CONFIG: ${INPUT_CONFIG}"
 echo "INPUT_REPORT_FORMAT: ${INPUT_REPORT_FORMAT}"
