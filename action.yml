@@ -49,6 +49,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+
 #runs:
 #  using: "docker"
 #  image: "docker://ghcr.io/popcornpalace/github-action-gitleaks:latest"
