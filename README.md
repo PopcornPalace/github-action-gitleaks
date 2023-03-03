@@ -107,11 +107,12 @@ Any feedback or contribution to this project is welcome!
 
 OR
 
-`
+```
 brew install git-filter-repo
+cd PROJECT
 cp .git git.b 
 git filter-repo --path PATH_TO_COMPROMISE_FILE --invert-paths
 mv git.b/config .git/config
 rm -rf git.b
 git push origin --force --all
-`
+```
