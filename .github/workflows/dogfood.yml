@@ -13,7 +13,7 @@ jobs:
 
       - name: Run Gitleaks
         id: gitleaks
-        uses: PopcornPalace/github-action-gitleaks
+        uses: popcornpalace/github-action-gitleaks
         with:
           report_format: sarif
           fail: false
