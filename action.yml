@@ -46,7 +46,9 @@ outputs:
     description: "Gitleaks executed command"
   report: # id of output
     description: "Report file path"
-
 runs:
-  using: "docker"
-  image: "docker://ghcr.io/popcornpalace/github-action-gitleaks:latest"
+  using: 'docker'
+  image: 'Dockerfile'
+#runs:
+#  using: "docker"
+#  image: "docker://ghcr.io/popcornpalace/github-action-gitleaks:latest"
