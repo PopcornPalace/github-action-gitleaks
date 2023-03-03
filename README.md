@@ -78,7 +78,7 @@ This GitHub Action allows you to run [Gitleaks](https://github.com/zricethezav/g
 
 - name: Run Gitleaks
   id: gitleaks
-  uses: PopcornPalace/github-action-gitleaks
+  uses: PopcornPalace/github-action-gitleaks@main
   with:
     config: "MyGitleaksConfigs/MyGitleaksConfig.toml"
 
