@@ -2,7 +2,7 @@
 
 This GitHub Action allows you to run [Gitleaks](https://github.com/zricethezav/gitleaks) in your CI/CD workflow.
 
-> NOTE: v2 of this GitHub Action supports only the latest version of Gitleaks from v8 release.
+> NOTE: this GitHub Action supports only the latest version of Gitleaks from v8 release.
 
 ## Inputs
 
