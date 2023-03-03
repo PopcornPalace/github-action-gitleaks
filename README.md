@@ -103,3 +103,15 @@ Any feedback or contribution to this project is welcome!
 ## How do I remove a secret from Git's history?
 
 [GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) has a great article on this using the [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/).
+
+
+OR
+
+`
+brew install git-filter-repo
+cp .git git.b 
+git filter-repo --path PATH_TO_COMPROMISE_FILE --invert-paths
+mv git.b/config .git/config
+rm -rf git.b
+git push origin --force --all
+`
